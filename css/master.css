@@ -220,7 +220,7 @@ body {
 /* start landing page  */
 .landing-page {
     min-height: 100vh;
-    background-image: url("/images/1.jpg");
+    background-image: url("images/1.jpg");
     background-size: cover;
     position: relative;
     transition: .9s;
@@ -904,7 +904,7 @@ body {
 /* start Contact  */
 .contact {
     min-height: 600px;
-    background-image: url(/images/contact-us.png);
+    background-image: url(images/contact-us.png);
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
