@@ -129,6 +129,12 @@ body {
     opacity: 1;
 }
 
+@media (max-width: 767px) {
+    .settings-box .option-box.bullet {
+        display: none;
+    }
+}
+
 .reset-options {
     background-color: #f44336;
     border: none;
