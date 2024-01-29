@@ -166,6 +166,12 @@ body {
     z-index: 1000;
 }
 
+@media (max-width: 767px) {
+    .nav-bullets {
+        display: none;
+    }
+}
+
 .nav-bullets .bullet {
     width: 20px;
     height: 20px;
