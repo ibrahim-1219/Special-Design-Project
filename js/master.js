@@ -50,6 +50,12 @@ settingsBoxElement.addEventListener("click", function () {
     .querySelector(".toggle-settings .fa-gear")
     .classList.toggle("fa-spin");
   // end
+  if (window.innerWidth <= 1199) {
+    document.querySelector(".header-area .logo").style.display =
+      settingsBoxElement.classList.contains("open") ? "none" : "block";
+  } else {
+    document.querySelector(".header-area .logo").style.display = "block";
+  }
 });
 
 //switch app colors
